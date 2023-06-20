@@ -7,8 +7,7 @@ namespace FizzBuzz
         public static void Main(string[] args)
         {
             Program program = new Program();
-            program.FizzBuzz(15);
-            
+            program.FizzBuzz(100);
         }
 
         public void FizzBuzz(int range)
